@@ -4,6 +4,10 @@
 metodo_inputs();
 angle_mouse();
 
+
+atirar();
+
+
 //Trocando o estado
 switch (estado) {
     //O player não está se movimentando
@@ -15,7 +19,12 @@ switch (estado) {
         
         
         //Mudando a sprite
-        sprite_index = spr_player_idle;
+        sprite_index = spr_player;
+        
+        //Zerando a velocidade da imagem
+        image_speed = 0;
+        //Setando a index da sprite
+        image_index = 2;
         
     break;
 
@@ -27,7 +36,8 @@ switch (estado) {
         }
         
         //trocando a sprite
-        sprite_index = spr_player_move;
+        sprite_index = spr_player;
+        image_speed = 1;
         
         //Aplicando a velocidade
         velocidade();
