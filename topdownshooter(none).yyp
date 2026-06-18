@@ -35,6 +35,12 @@
   },
   "name":"topdownshooter(none)",
   "resources":[
+    {"id":{"name":"atvd01","path":"notes/atvd01/atvd01.yy",},},
+    {"id":{"name":"atvd02","path":"notes/atvd02/atvd02.yy",},},
+    {"id":{"name":"atvd03","path":"notes/atvd03/atvd03.yy",},},
+    {"id":{"name":"atvd04","path":"notes/atvd04/atvd04.yy",},},
+    {"id":{"name":"atvd05","path":"notes/atvd05/atvd05.yy",},},
+    {"id":{"name":"atvd06","path":"notes/atvd06/atvd06.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},

@@ -1,0 +1,29 @@
+Atividade 06 - Aprendendo a atirar
+
+​Criar a sprite do tiro, criar o objeto do tiro e fazer com que o jogador atire enquanto ele segura o botão do mouse para atirar sem usar o evento de mouse.
+
+Dicas para a atividade
+
+É possível checar se o usuário esta pressionando um botão do mouse com a função mouse_check_button(botao)
+
+mb_left é o botão esquerdo e mb_right é o botão direito do mouse.
+
+Da mesma forma que podemos definir o ângulo de uma imagem com o image_angle, você pode definir a direção de um objeto com o direction
+
+Podemos criar uma instância nova e definir a direção, a velocidade e muitas outras informações dela no momento de criação por salvar os dados dela em uma variável.
+
+Exemplo
+
+var _bola = instance_create_layer(x, y, "layer", obj_bola);
+
+Dessa forma eu posso acessar a instância criada através da variável _bola e alterar informações dela.
+
+Exemplo
+
+_bola.direction = direcao;
+
+_bola.image_angle = direcao;
+
+_bola.speed = 20
+
+Aqui eu criei uma instância do objeto bola, salvei ele em uma variável temporária chamada _bola, defini a direção dela para o valor que esta em uma variável chamada direcao, defini o ângulo dela para o da direcao e defini a speed dela para 20

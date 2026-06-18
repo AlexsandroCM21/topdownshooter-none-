@@ -1,0 +1,15 @@
+Atividade 04 - Criando a nossa câmera
+
+​View, viewport e câmera
+
+Fazer a view do jogo não ver a room inteira e fazer com que a câmera siga o player
+
+Dicas
+
+A view é o que esta aparecendo na tela do jogo, viewport é a area da tela onde o view vai aparecer e a câmera é quem esta projetando a view (quem esta olhando), então se a câmera se mover a view se move também.
+
+Você pode definir a room com um tamanho bem grande 3800 de width por exemplo e 2600 de height por exemplo.
+
+Para impedir que tudo seja exibido ao mesmo tempo você pode ir nas configurações da room (properties - room) ativar viewports and cameras (enable viewports) e configurar a viewport0 por deixar ela visivel.
+
+Lembrando que o width e height da câmera define o tamanho do que vai ser visto (neste projeto eu usei 1280x720) e o viewport define o tamanho da janela do jogo (também foi usado 1280x720, mas se o seu monitor for pequeno você pode usar o viewport com 854x480, o importante é manter a proporção entre a view e o viewport), finalmente para garantir que a câmera vai seguir o playr é bom garantir que o object Following da câmera é o objeto do player, borda horizontal e borda vertical é a distancia que o objeto seguido vai ter que se aproximar da parede da tela para a câmera começar a se mover (faça testes, coloque 0 e veja o que acontece e depois coloque outros valores).

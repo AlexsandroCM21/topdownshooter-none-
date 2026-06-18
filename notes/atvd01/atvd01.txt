@@ -1,0 +1,9 @@
+Iniciando o projeto
+
+​Iniciando o player
+
+Você vai importar a sprite do player andando, vai criar o objeto player e colocar a sprite nele e testar.
+
+
+
+Imagens que possuem o strip no nome são imagens que já estão ajustadas para ter animação, o strip indica a quantidade de imagens que ele possui.

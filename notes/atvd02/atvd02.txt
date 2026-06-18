@@ -1,0 +1,33 @@
+Atividade 02 - Toda viagem começa com um primeiro passo
+
+​Fazendo o player se mover com o WASD
+
+Instruções da tarefa
+
+Criar um método de movimentação para o player usando o WASD
+
+No create você vai fazer um método de movimentação
+
+Este método vai pegar os inputs do jogador e alterar o eixo X e Y dele com base nessas teclas e na velocidade do player.
+
+Este método deve executar o tempo inteiro para que o jogo funcione, isso é importante.
+
+
+
+Dicas para a tarefa
+
+Para pegar inputs de letras você precisa usar a função ord("LETRA"), lembrando que a letra deve estar em maiúsculo e entre aspas.
+
+A função keyboard_check checa o tempo todo e a função keyboard_check_pressed checa uma vez quando você aperta.
+
+Lembre-se que você pode usar variáveis temporárias para salvar qual input o usuário esta pressionando e que true é equivalente a 1 e false é equivalente a 0
+
+exemplo
+
+var up = keyboard_check(ord("W"));
+
+Então se a pessoa esta apertando W o up vai guardar true (1) e se ela não esta apertando ele guarda false (0)
+
+E para mover um objeto nós precisamos alterar os valores do eixo X e Y dele.
+
+O step event é um evento que roda o tempo todo no jogo enquanto o create só é executado uma vez quando o objeto é criado.

@@ -1,0 +1,15 @@
+Atividade 03 - Animando o player
+
+​Fazer com que o player olhe para onde estamos mirando com o mouse
+
+
+
+Dicas para a tarefa
+
+Para fazer um objeto "olhar" para um local, nós só precisamos alterar o image angle dele, isso faz a imagem girar e da a impressão de estar olhando.
+
+Por definição o game maker usa o lado direito da sprite como a direção padrão (valor 0 no image angle), então a sua sprite sempre esta "olhando" para a direita (que é para onde o nosso player esta olhando).
+
+O game maker possui uma função chamada point_direction(x1, y1, x2, y2), essa função pega o x e y de quem esta olhando e o x e y para onde ele esta olhando, sendo o x1 e y1 a posição de quem olha e o x2 e y2 a posição de quem ele esta olhando (se eu estou olhando um quadro o x1 e y1 é minha posição e o x2 e y2 é a posição do quadro).
+
+O mouse também possui um x e y, para acessar eles basta usar mouse_x, mouse_y

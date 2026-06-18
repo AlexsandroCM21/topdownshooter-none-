@@ -1,0 +1,11 @@
+Atividade 05 - Controlando a animação do player
+
+​Fazer com que o player só fique animado SE o jogador esta se movendo, caso contrário ele vai ficar parado.
+
+É possível controlar a velocidade de uma animação com o image_speed, onde image_speed = 1 é a velocidade original e image_speed = 0 é sem velocidade.
+
+Também é possível controlar qual imagem dentro da sprite vai ser usada, o image_index define isso, então se eu coloco image_index = 0, eu estou mandando ele sempre usar a primeira imagem da sprite, lembrando que as imagens da sprite começam a contar do 0.
+
+Dicas
+
+Se a velocidade horizontal e a velocidade vertical do player for diferente de 0 então ele esta se movendo, ou se o usuário estiver apertando o UP ou o DOWN ou o LEFT ou o RIGHT então ele esta se movendo.
